@@ -25,9 +25,6 @@ a{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.header-menu-trip .nav-header-trip{
-	position: relative;
-}
 .header-menu-trip .nav-header-trip #button-bar{
 	border-color: #f39c12;
 }
@@ -35,12 +32,21 @@ a{
 	color: #f39c12;
 	margin-top: 5px
 }
+.nav-header-trip{
+	position: relative;
+	width: 100%;
+}
 .nav-header-trip ul li {
 	text-align: right;
 	margin: 10px;
 }
 .nav-header-trip ul li a:hover{
 	color: #f1c40f;
+}
+.nav-header-fixed{
+	position: fixed;
+	background-color: #fff;
+	z-index: 1000;
 }
 .login-2{
 	text-align: right;
