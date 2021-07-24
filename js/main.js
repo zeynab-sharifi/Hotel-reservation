@@ -8,3 +8,15 @@ jQuery(document).ready(function($){
     }
     });
     });
+jQuery(document).ready(function($){
+  $(".owl-carousel").owlCarousel();
+  
+});
+
+const selectElement = document.querySelector('.two-person');
+
+selectElement.addEventListener('change', (event) => {
+  const result = document.querySelector('.total');
+  result.textContent = `ومان ${event.target.value}`;
+
+});

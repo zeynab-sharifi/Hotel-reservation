@@ -130,6 +130,9 @@ a{
 	position: relative;
 	text-align: right;
 }
+.faimes-travel-section .container{
+	display: block;
+}
 .title-header-section{
 	text-align: right;
 }
